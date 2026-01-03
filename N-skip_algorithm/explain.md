@@ -14,7 +14,7 @@ Power Savings: Early-out significantly reduces unnecessary scan power.
 
 Improved Issue rate (over In-Order): Finds ready instructions faster than strict in-order.
 
-Bounded Complexity: Limits the hardware complexity for low-power cores.
+Bounded Complexity: Limits the hardware complexity for low-power cores.  
 
 
 
