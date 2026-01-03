@@ -16,7 +16,7 @@ Improved Issue rate (over In-Order): Finds ready instructions faster than strict
 
 Bounded Complexity: Limits the hardware complexity for low-power cores.  
 
-
+----------------------------------
   
 Here's the simplified logic:
 
