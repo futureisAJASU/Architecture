@@ -135,7 +135,7 @@ Separating architectural intent from ISA compliance avoids confusion while keepi
 
 ## Summary
 
-**v0.23** does not fundamentally alter the architecture.
+**v0.4** does not fundamentally alter the architecture.
 
 Instead, it:
 - Tightens the specification
