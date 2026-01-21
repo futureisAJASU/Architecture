@@ -9,8 +9,8 @@ All architectural designs in this repository are optimized based on the "5M-stra
 2. **Minimum Power**: Drastically reducing power consumption for sustainable mobile environments.
 3. **Minimum Area**: Optimizing die size to improve production costs, leakage current and yield rates.
 
-📈 Maximum (For value)
-4. **Maximum Performance**: Delivering peak computational power relative to area and power constraints.
+📈 Maximum (For value)  
+4. **Maximum Performance**: Delivering peak computational power relative to area and power constraints.  
 5. **Maximum UX**: Focusing on real-world responsiveness and smoothness that users actually feel.
 
 🏛️ 핵심 철학 5가지: 5최 철학
