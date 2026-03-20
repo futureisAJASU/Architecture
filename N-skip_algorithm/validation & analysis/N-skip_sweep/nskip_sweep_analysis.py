@@ -76,7 +76,7 @@ def run_one_sim(
         cycle_power = power_leakage
         issued = 0
 
-        scan_len = min(queue_len, N + 1)
+        scan_len = min(queue_len, N)
         ready_idx = None
 
         # Scan head..N
@@ -148,7 +148,7 @@ def run_A_and_B():
     # -----------------------------
     # Architecture / model params
     # -----------------------------
-    queue_len = 16
+    queue_len = 8
     N_max = 8
 
     short_lat_range = (1, 4)
