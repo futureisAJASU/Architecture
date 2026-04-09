@@ -1,4 +1,4 @@
-# Little Core Architecture v4.1 + Toy Microarchitecture Simulator Notes
+# Little Core Architecture v0.41 + Toy Microarchitecture Simulator Notes
 
 This document summarizes the current state of the **Little Core Architecture** design and the accompanying **toy microarchitecture simulator** used to validate key architectural assumptions.  
 It explains:
