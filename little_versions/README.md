@@ -149,3 +149,11 @@ The design now more clearly communicates that it is:
 > absorb short bursts efficiently,  
 > and minimize big/middle-core wakeups  
 > without relying on heavyweight scheduling machinery.
+
+## v0.5 Direction: SME-like Execution Moved to Cluster-Level Shared Resource
+
+The previous diagram could be interpreted as placing Vector/SME2-like execution directly inside the little core pipeline.
+
+In the revised model, the little core retains only lightweight FP/SIMD capability, while heavier SME-like or AI-oriented execution is modeled as a cluster-shared assist engine.
+
+This reduces core-local complexity, avoids excessive LSQ/MSHR pressure inside the little core, and better matches the intended role of the little core as a low-power background and burst-response core.
